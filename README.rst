@@ -2,8 +2,8 @@
 djintegration - Continuous integration reports for python
 ============================================================================
 
-Introduction
-==============
+Introduction of Django
+=======================
 
 Django continuous integration is a tool for running and displaying
 tests for the python language. Although python and Django are used,
@@ -26,7 +26,7 @@ the necesseray dependencies. It's nececessary that your package list all
 the needed dependencies in `setup.py`. It's possible that you will have to
 install some distribution dependencies by hand (like the developement headers for lxml).
 
-Then you can generate a test report for all your repositories
+Then you can generate a test report for all of your repositories
 using the `djintegration.commands.make_test_reports` commands
 or by using the manage command::
 
